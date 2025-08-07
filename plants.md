@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Plants
-date: 2025-08-07
 permalink: /plants/
 ---
 
