@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "Plants"
+title: Plants
 date: 2025-08-07
+permalink: /plants/
 ---
 
 I've been wanting to try a bit of gardening and grow some veggies for a while — finally started this year! 
