@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "My Little Garden Journey"
+title: "Plants"
 date: 2025-08-07
 ---
 
@@ -11,18 +11,17 @@ Sharing a few plants I’ve grown so far. Will keep posting updates as both me a
 ## Some of my plants
 
 **Brinjal (Eggplant)**  
-![Brinjal plant](/assets/images/brinjal_07082025.jpg)
+![Brinjal plant](/static/images/brinjal_07082025.jpg)
 
 **Lady's Finger**  
-![Lady's Finger plant](/assets/images/ladysfinger_07082025.jpg)
+![Lady's Finger plant](/static/images/ladysfinger_07082025.jpg)
 
 **Spinach**  
-![Spinach plant](/assets/images/spinach_07082025.jpg)
+![Spinach plant](/static/images/spinach_07082025.jpg)
 
 **Chilli**  
-![Chilli plant](/assets/images/chilli_07082025.jpg)
-
+![Chilli plant](/static/images/chilli_07082025.jpg)
 
 **Coriander**  
-![Coriander plant](/assets/images/coriander_07082025.jpg)
+![Coriander plant](/static/images/coriander_07082025.jpg)
 
