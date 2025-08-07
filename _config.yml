@@ -61,4 +61,4 @@ plugins:
 collections:
   notes:
     output: true
-    permalink: /notes/:path/
+    permalink: /notes/:name/
