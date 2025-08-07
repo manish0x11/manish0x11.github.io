@@ -57,3 +57,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections:
+  notes:
+    output: true
+    permalink: /notes/:path/
