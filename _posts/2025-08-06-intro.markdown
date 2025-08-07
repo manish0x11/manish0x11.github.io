@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Welcome to My blog"
+date:   2025-08-06 16:22:41 +0530
+categories: intro
+---
+Hello World This is Manish noob 
