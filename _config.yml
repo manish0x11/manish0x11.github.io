@@ -28,7 +28,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  manish0x11
 
 
-paginate: 5
+paginate: 10
 paginate_path: "/page:num"
 
 # Build settings
@@ -58,7 +58,4 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-collections:
-  notes:
-    output: true
-    permalink: /notes/:name/
+
