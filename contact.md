@@ -4,6 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-# email
+## Contact
 
-you can contact me on manish0x11@gmail.com for any suggestions
+**Email:** [manish.bsnlit@gmail.com](mailto:manish.bsnlit@gmail.com)  
+Feel free to reach out with suggestions or feedback.
