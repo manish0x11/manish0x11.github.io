@@ -4,25 +4,28 @@ title: Notes
 permalink: /notes/
 ---
 
-# Counter from collections
+## Counter from `collections`
 
-while solving AoC-2024 day-1 part-2,my solution looks like below and when I asked ChatGPT for any other performance optimized solution,it suggest **Counter from collections module**
+While solving **AoC 2024 – Day 1, Part 2**, my initial solution was:
 
 {% highlight python %}
-# list1 = ['3', '4', '2', '1', '3', '3']
-# list2 = ['4', '3', '5', '3', '9', '3']
+list1 = ['3', '4', '2', '1', '3', '3']
+list2 = ['4', '3', '5', '3', '9', '3']
 
-similarity = [int(x)*list2.count(x) for x in list1]
-print(sum(similarity))
 
-# 31
-
-# better way
-list2_d = Counter(list2)
-
-# list2_d = Counter({'3': 3, '4': 1, '5': 1, '9': 1})
-
-similarity = [int(x)*list2_d[x] for x in list2]
-print(similarity)
+similarity = [int(x) * list2.count(x) for x in list1]
+print(sum(similarity))  # 31
 {% endhighlight %}
+
+
+When I asked ChatGPT for a performance-optimized version, it suggested using the **Counter** class from the **collections** module:
+
+{% highlight python %}
+from collections import Counter
+
+list2_counts = Counter(list2)  # {'3': 3, '4': 1, '5': 1, '9': 1}
+similarity = [int(x) * list2_counts[x] for x in list1]
+print(sum(similarity))  # 31
+{% endhighlight %}
+
 
